@@ -29,3 +29,6 @@ exclude = [
 per-file-ignores = [
     "notebooks/*:E501",  # allow long lines in notebooks
 ]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
