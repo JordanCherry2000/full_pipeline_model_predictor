@@ -11,4 +11,4 @@ pre-commit autoupdate
 
 
 
-![CI](https://github.com/JordanCherry2000/full_pipeline_model_predictor/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/JordanCherry2000/full_pipeline_model_predictor/.github/workflows/ci.yml/badge.svg)
