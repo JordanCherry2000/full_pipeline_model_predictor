@@ -1,0 +1,31 @@
+# pyproject.toml
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | data
+  | notebooks/exploratory
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+skip_glob = ["data/*", ".venv/*"]
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
+exclude = [
+    ".git",
+    ".venv",
+    "data/",
+]
+per-file-ignores = [
+    "notebooks/*:E501",  # allow long lines in notebooks
+]
