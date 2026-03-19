@@ -1,6 +1,13 @@
 numpy
+pandas
 scikit-learn
 matplotlib
+seaborn
+mlflow
+shap
+pydantic
+pytest
+pip-tools
 pre-commit
 black
 flake8
